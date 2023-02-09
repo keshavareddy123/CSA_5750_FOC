@@ -1,0 +1,11 @@
+#includee<stdio.h>
+#inlcude<math.h>
+int convert(int dec);
+int main()
+{
+   int dec;
+   printf("enter a decimal number: ");
+   scanf("%d", &dec);
+   printf("the octal number of %d is %d", dec, convert(dec));
+   return 0;
+}
